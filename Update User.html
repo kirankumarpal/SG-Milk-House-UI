@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Update User</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+
+  <!-- Favicons -->
+  <link href="./assets/img/k-icon-27.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&family=Raleway:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="./assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="login-page" data-bs-spy="scroll" data-bs-target="#navmenu" style="text-align: center;">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1>SG MiLk House</h1>
+        <span>.</span>
+      </a>
+
+      <!-- Nav Menu -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="Products.html">Products</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav><!-- End Nav Menu -->
+
+      <div class="searchbox1 ">
+        <button type="button" class="btn-getstarted btn2 btn-secondary dropdown-toggle" data-bs-toggle="dropdown">My
+          Account</button>
+        <ul class="dropdown-menu" style="font-size: 15px;">
+          <li><a class="dropdown-item dd" href="./Login.html">Login</a></li>
+          <li><a class="dropdown-item" href="./Registernow.html" style="color:rgb(150, 118, 118)" href="#">New to SG
+              MiLk
+              House?<br>Register Now</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- Update User Details Page -->
+    <div data-aos="fade" class="page-title">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-5">
+              <h1><em>Update User</em></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- User-details Section - Update User Page -->
+
+    <div class="listing-page">
+      <div class="container">
+        <div class="col-lg-12">
+          <div class="usr-form">
+            <!-- Form to display and update user details -->
+            <form id="update-form">
+              <div class="div-field">
+                <label for="upd-id" class="lbl">ID:</label>
+                <input type="text" id="upd-id" disabled class="inp">
+              </div>
+              <div class="div-field">
+                <label for="upd-name" class="lbl">Name:</label>
+                <input type="text" id="upd-name" class="inp">
+              </div>
+              <div class="div-field">
+                <label for="upd-mobile" class="lbl">Mobile:</label>
+                <input type="number" id="upd-mobile" class="inp">
+              </div>
+              <div class="div-field">
+                <label for="upd-email" class="lbl">Email:</label>
+                <input type="text" id="upd-email" disabled class="inp">
+              </div>
+              <div class="div-field">
+                <label for="upd-password" class="lbl">Password:</label>
+                <div class="input-container">
+                  <input type="password" id="upd-password" class="inp">
+                  <button type="button" id="toggle-password" class="toggle-password"
+                    onclick="togglePasswordVisibilityupdate()">
+                    <i id="password-toggle-icon" class="fa fa-eye-slash"></i>
+                  </button>
+                </div>
+              </div>
+              <input type="submit" value="Update" id="update-button"><br>
+              <button class="btn btn-danger delete-btn" onclick="deleteUser()">Delete</button>
+              <h1 id="reg-response"></h1>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="container copyright text-center ">
+        <p>&copy; <span>Copyright</span> <strong class="px-1">SG MiLk House</strong> <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          Designed by <a href="">SG & Team</a>
+        </div>
+      </div>
+    </footer><!-- End Footer --
+      <!-- Scroll Top Button -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+    <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+
+    <!-- Template Main JS File -->
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/admin.js"></script>
+    <script src="./assets/js/code.jquery.com_jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+      // Function to extract query parameters from the URL
+      function getQueryParam(parameterName) {
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        return urlParams.get(parameterName);
+      }
+
+      $(document).ready(function () {
+        // Get the email from the query parameter
+        const email = getQueryParam("email");
+
+        // Fetch user data based on the email using AJAX
+        $.ajax({
+          url: "http://localhost:8080/getUserByEmail?email=" + email,
+          method: "GET",
+          success: function (data) {
+            if (data === null || data.notFound === true) {
+              // Display a message indicating that the email is not registered
+              $("#reg-response").text("Email not registered.");
+            } else {
+              // Populate the input fields with the retrieved data
+              $("#upd-id").val(data.id);
+              $("#upd-name").val(data.name);
+              $("#upd-mobile").val(data.mobile);
+              $("#upd-email").val(data.email);
+              $("#upd-password").val(data.password);
+            }
+          },
+          error: function (error) {
+            // Handle errors
+            console.error("Error fetching user data: ", error);
+          }
+        });
+
+        // Add an event listener to the update button
+        $("#update-button").on("click", function () {
+          event.preventDefault(); // Prevent the default form submission behavior
+          const userId = $("#upd-id").val();
+          const name = $("#upd-name").val();
+          const mobile = $("#upd-mobile").val();
+          const email = $("#upd-email").val();
+          const password = $("#upd-password").val();
+
+          // Check if any of the fields are empty
+          if (!userId || !email) {
+            $("#reg-response").text("Plese go in login page and enter correct email id.");
+            setTimeout(function () {
+              $("#reg-response").text(""); // Clear the message after 10 seconds
+            }, 10000);
+            return; // Exit the function if any field is empty
+          }
+
+          // Check if any of the fields are empty
+          if (!name || !mobile || !password) {
+            $("#reg-response").text("Please fill in all fields.");
+            setTimeout(function () {
+              $("#reg-response").text(""); // Clear the message after 10 seconds
+            }, 10000);
+            return; // Exit the function if any field is empty
+          }
+
+          // Validate mobile number format
+          const mobilePattern = /^[789]\d{9}$/; // Starts with 7, 8, or 9 and is 10 digits in total
+          if (!mobilePattern.test(mobile)) {
+            $("#reg-response").text("Invalid mobile number.");
+            setTimeout(function () {
+              $("#reg-response").text(""); // Clear the message after 10 seconds
+            }, 10000);
+            return; // Exit the function if mobile number is invalid
+          }
+
+          $.ajax({
+            url: "http://localhost:8080/updateByEmail/" + email,
+            method: "PUT",
+            data: {
+              id: userId,
+              name: name,
+              mobile: mobile,
+              email: email,
+              password: password
+            },
+            success: function (response) {
+              $("#reg-response").text("User data updated successfully.");
+              setTimeout(function () {
+                $("#reg-response").text(""); // Clear the message after 10 seconds
+              }, 10000);
+            },
+            error: function (error) {
+              $("#reg-response").text("Error updating user data");
+              setTimeout(function () {
+                $("#reg-response").text(""); // Clear the message after 10 seconds
+              }, 10000);
+            }
+          });
+        });
+      });
+    </script>
+</body>
+
+</html>
